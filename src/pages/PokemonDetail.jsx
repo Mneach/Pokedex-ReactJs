@@ -61,14 +61,7 @@ const PokemonDetail = () => {
                   {PokemonDetailContext.PokemonDetailData.stats[0].stat.name}
                 </span>
                 <span className='Pokemon__Base__Stat'>
-                  <AnimatedNumber
-                    value={PokemonDetailContext.PokemonDetailData.stats[0].base_stat}
-                    duration={1000}
-                    formatValue={(n) => n.toFixed(0)}
-                    frameStyle={(percentage) =>
-                      percentage < 50 ? { opacity: 0.5 } : { opacity: 1 }
-                    }
-                  />
+                  {PokemonDetailContext.PokemonDetailData.stats[0].base_stat}
                 </span>
               </div>
               <div className="favorite__icon" onClick={MarkAsFavorite}>
@@ -98,14 +91,7 @@ const PokemonDetail = () => {
                     (
                       <div className="Bottom__Pokemon__Stats" key={i}>
                         <span className="Pokemon__Base__Stat">
-                          <AnimatedNumber
-                            value={stats.base_stat}
-                            duration={1000}
-                            formatValue={(n) => n.toFixed(0)}
-                            frameStyle={(percentage) =>
-                              percentage < 50 ? { opacity: 0.5 } : { opacity: 1 }
-                            }
-                          />
+                          {stats.base_stat}
                         </span>
                         <span className="Pokemon__Stat__Name">
                           {stats.stat.name}
