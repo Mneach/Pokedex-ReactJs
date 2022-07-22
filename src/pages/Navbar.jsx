@@ -1,4 +1,3 @@
-import React from 'react'
 import '../lib/css/navbar.css'
 import {SiPokemon} from 'react-icons/si'
 import {AiOutlineHome} from 'react-icons/ai'

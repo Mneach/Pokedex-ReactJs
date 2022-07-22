@@ -1,6 +1,4 @@
-import React, { useState } from 'react'
-import { useQuery } from "@apollo/client"
-import { GET_ALL_POKEMON } from '../lib/queries/GetAllPokemon'
+import { useState } from 'react'
 import '../lib/css/home.css'
 import { usePokemonListContext } from '../lib/context/PokemonListContext'
 import { Link } from 'react-router-dom'

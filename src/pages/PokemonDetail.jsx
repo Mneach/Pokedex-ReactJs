@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { MdOutlineFavoriteBorder } from 'react-icons/md';
 import { usePokemonDetailContext } from '../lib/context/PokemonDetailContext';
 import { usePokemonListContext } from '../lib/context/PokemonListContext';

@@ -1,4 +1,3 @@
-import React from 'react'
 import { Link } from 'react-router-dom'
 import { PokemonId, PokemonImage, PokemonListCard, PokemonName } from '../components/ListCard'
 import { usePokemonListContext } from '../lib/context/PokemonListContext'

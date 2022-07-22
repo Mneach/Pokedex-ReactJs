@@ -1,12 +1,8 @@
-import { ApolloClient, InMemoryCache, ApolloProvider, gql } from '@apollo/client';
-import { useState } from 'react';
+import { ApolloClient, InMemoryCache, ApolloProvider} from '@apollo/client';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import PokemonDetailProvider from './lib/context/PokemonDetailContext';
 import PokemonListProvider from './lib/context/PokemonListContext';
 import PokemonDetailRoutes from './lib/route/PokemonDetailRoutes';
 import Home from './pages/Home';
-import Navbar from './pages/Navbar';
-import PokemonDetail from './pages/PokemonDetail';
 import './lib/css/general.css'
 import Favorite from './pages/Favorite';
 
