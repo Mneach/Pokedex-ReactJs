@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+.PokemonDetail__Container{
+    height: 100vh;
+    /* border: 1px solid green; */
+    display: flex;
+    align-items: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-family: 'Roboto' , sans-serif;
+    /* color: white; */
+}
+
+.Pokemon__HP{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 15px;
+    background-color: white;
+    gap: 5px;
+    border-radius: 15px;
+}
+
+.Pokemon__Image__Container{
+    display: flex;
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.Pokemon__Image{
+    width: 150px;
+}
+
+.Pokemon__Name{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.Pokemon__Type__Container{
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-bottom: 30px;
+    margin-top: 30px;
+    gap: 30px;
+    /* border: 1px solid black; */
+}
+
+.Pokemon__Type{
+    background-color: orange;
+    padding: 12px 7px;
+    border-radius: 10px;
+}
+
+.Top__Stats__Container{
+    width: 100%;
+    /* border: 1px solid green; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Bottom__Stats__Container{
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.Bottom__Pokemon__Stats{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px; 
+    gap: 5px;
+}
+
+.Pokemon__Base__Stat{
+    font-weight: bold;
+}
+
+.favorite__icon{
+}

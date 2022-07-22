@@ -1,0 +1,17 @@
+Detail Pokemon
+Foto
+Hp V
+Attack  V 
+Defense V
+Speed V
+Type V
+
+Pokedex Home
+Foto V
+Name V
+Number V
+Type V
+     <ApolloProvider client={client}>
+            {/* <PokemonListProvider> */}
+         {/* </PokemonListProvider> */}
+        </ApolloProvider>
