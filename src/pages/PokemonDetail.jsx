@@ -5,7 +5,6 @@ import { usePokemonListContext } from '../lib/context/PokemonListContext';
 import '../lib/css/pokemonDetail.css';
 import Navbar from './Navbar';
 import { MdFavorite } from 'react-icons/md'
-import AnimatedNumber from "react-animated-number";
 import { PokemonCardDetail, PokemonType } from '../components/CardDetail';
 
 const PokemonDetail = () => {
